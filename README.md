@@ -65,12 +65,12 @@ The audit was conducted through:
   - **Severity**: High
   - **Location**: `withdraw` function
   - **Description**: The `withdraw` function was potentially vulnerable to re-entrancy attacks. The `nonReentrant` modifier has since been applied, which fixes the issue.
+  - Code Snippet
   - ```
     function withdraw(uint256 accountID, uint256 amount) external onlyAccountOwner(accountID) nonReentrant {
     _decreaseCollateralAmount(accountID, amount);
     collateralToken.safeTransfer(msg.sender, amount);  // External call before state change
-    emit CollateralWithdrawn(accountID, amount);
-}
+    emit CollateralWithdrawn(accountID, amount); }
 
 
 ### 5.2 Major Bugs
