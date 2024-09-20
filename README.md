@@ -3,7 +3,9 @@
 **Smart Contract Names:** BaseMarket, CollaterizedMarket, CompoundInterestMarket, LimitedMarket, OwnableMarket, PausableMarket, SimpleInterestMarket  
 **Audit Date:** 2024-01-10  
 **Auditor:** Shahin Zakizadeh
+
 **Version Audited:** v1.0.0
+
 **Smart Contract Addresses:** 
 - **Network**: Not yet deployed  
 - **Planned Deployment Network**: Sepolia Testnet (or mainnet, or any other testnet)
