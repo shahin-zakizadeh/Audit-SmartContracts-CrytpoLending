@@ -97,7 +97,10 @@ The audit was conducted through:
 ## 7. Conclusion
 The audit found several critical vulnerabilities that have been addressed, along with optimizations that can improve gas efficiency and contract performance. Further testing and a re-audit are recommended after fixes are implemented.
 
-**Audit Sign-Off**  
+**Audit Sign-Off**
+
 **Auditor Name**: Shahin Zakizadeh
+
 **Auditor Signature**: S.Z
+
 **Date**: 2024-01-10
